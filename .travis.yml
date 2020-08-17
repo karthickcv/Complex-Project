@@ -6,4 +6,4 @@ before_install:
   - docker build -t karthickcv/Complex-Project -f Dockerfile.dev .
 
 script:
- - docker run karthickcv/multi-client npm run test -- --coverage
+ - docker run karthickcv/Complex-Project npm run test -- --coverage
